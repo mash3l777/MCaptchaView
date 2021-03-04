@@ -25,7 +25,7 @@ public class MCaptchaView: UIView {
     
     // Verification code update block
     var captchaCompletionBlock: ((_ captcha: String?) -> Void)?
-    private var codeList: [AnyHashable]?
+    var codeList: [AnyHashable]?
 
     public override init(frame: CGRect) {
         super.init(frame: frame)
