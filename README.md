@@ -1,8 +1,11 @@
 # MCaptchaView
 
+[![Swift](https://github.com/mash3l777/MCaptchaView/actions/workflows/swift.yml/badge.svg)](https://github.com/mash3l777/MCaptchaView/actions/workflows/swift.yml)
+
 Example：
 
-```myCaptcha = MCaptchaView(frame: viewCaptcha.frame)
+```swift
+myCaptcha = MCaptchaView(frame: viewCaptcha.frame)
 myCaptcha.captchaFont = UIFont.boldSystemFont(ofSize: 30)
 myCaptcha.captchaCompletionBlock = { captcha in
     print("captcha is：\(captcha ?? "")")
@@ -13,7 +16,7 @@ viewCaptcha.addSubview(myCaptcha)
 
 Provide a case-insensitive comparison method：
 
-```    
+```swift    
 let isMatch = txtCode.text!.caseInsensitiveCompare(myCaptcha.captcha) == .orderedSame
 if isMatch {
     print("The verification code is entered correctly!!");
