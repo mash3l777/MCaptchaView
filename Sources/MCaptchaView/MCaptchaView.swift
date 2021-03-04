@@ -6,7 +6,7 @@
 
 import UIKit
 
-class MCaptchaView: UIView {
+public class MCaptchaView: UIView {
     
     // Verification font code
     private var _captchaFont: UIFont?
@@ -72,7 +72,7 @@ class MCaptchaView: UIView {
     }
 
     // MARK:- draw
-    override func draw(_ rect: CGRect) {
+    public override func draw(_ rect: CGRect) {
         super.draw(rect)
 
         // Background color
@@ -129,7 +129,7 @@ class MCaptchaView: UIView {
     }
 
     // Click to update verification code
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    public override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         updateCaptcha()
     }
 }
