@@ -26,8 +26,8 @@ let package = Package(
         .target(
             name: "MCaptchaView",
             dependencies: []),
-//        .testTarget(
-//            name: "MCaptchaViewTests",
-//            dependencies: ["MCaptchaView"]),
+        .testTarget(
+            name: "MCaptchaViewTests",
+            dependencies: ["MCaptchaView"]),
     ]
 )
