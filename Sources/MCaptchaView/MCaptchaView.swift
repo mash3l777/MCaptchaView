@@ -20,7 +20,7 @@ public class MCaptchaView: UIView {
         }
     }
     
-    // MARK:-Verification code
+    // MARK: - Verification code
     public var captcha: String?
     
     // Verification code update block
@@ -71,7 +71,7 @@ public class MCaptchaView: UIView {
         }
     }
 
-    // MARK:- draw
+    // MARK: - draw
     public override func draw(_ rect: CGRect) {
         super.draw(rect)
 
@@ -79,7 +79,7 @@ public class MCaptchaView: UIView {
         var color = fillColor()?.withAlphaComponent(0.5)
         backgroundColor = color
 
-        var cSize: CGSize? = nil
+        var cSize: CGSize?
         if let captchaFont = captchaFont {
             cSize = "A".size(withAttributes: [
                 NSAttributedString.Key.font: captchaFont
@@ -101,7 +101,7 @@ public class MCaptchaView: UIView {
             
             let startIndex = captcha!.startIndex
             let index = captcha!.index(startIndex, offsetBy: i)
-            let c = Character(extendedGraphemeClusterLiteral: captcha![index])
+            let c:Character = captcha![index]
             let textC = "\(c)"
             if let captchaFont = captchaFont, let color = color {
                 textC.draw(at: point, withAttributes: [
