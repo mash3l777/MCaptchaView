@@ -28,6 +28,6 @@ let package = Package(
             dependencies: []),
         .testTarget(
             name: "MCaptchaViewTests",
-            dependencies: ["MCaptchaView/Sources"]),
+            dependencies: ["MCaptchaView"]),
     ]
 )
