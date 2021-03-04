@@ -43,8 +43,8 @@ open class MCaptchaView: UIView {
         updateCaptcha()
     }
     
-    required public init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+    public required init?(coder: NSCoder) {
+        super.init(coder: coder)
     }
     
     // colour
