@@ -42,7 +42,11 @@ class MCaptchaView: UIView {
         // Update code
         updateCaptcha()
     }
-
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     // colour
     func fillColor() -> UIColor? {
         let red: CGFloat = CGFloat(arc4random() % 255) / 255.0
@@ -127,9 +131,5 @@ class MCaptchaView: UIView {
     // Click to update verification code
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         updateCaptcha()
-    }
-
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
     }
 }
