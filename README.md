@@ -1,8 +1,5 @@
 # MCaptchaView
 
-
-![MCaptchaView](MCaptchaView.gif)
-
 Example：
 
 ```myCaptcha = MCaptchaView(frame: viewCaptcha.frame)
