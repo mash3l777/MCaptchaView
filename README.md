@@ -1,6 +1,6 @@
 # MCaptchaView
 
-[![Swift](https://github.com/mash3l777/MCaptchaView/actions/workflows/swift.yml/badge.svg)](https://github.com/mash3l777/MCaptchaView/actions/workflows/swift.yml)
+[![Swift](https://github.com/mash3l777/MCaptchaView/actions/workflows/swift.yml/badge.svg)](https://github.com/mash3l777/MCaptchaView/actions/workflows/swift.yml) ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/mash3l777/MCaptchaView/main)
 
 Example：
 
