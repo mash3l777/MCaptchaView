@@ -9,8 +9,8 @@ import UIKit
 public class MCaptchaView: UIView {
     
     // Verification font code
-     var _captchaFont: UIFont?
-    var captchaFont: UIFont? {
+    public var _captchaFont: UIFont?
+    public var captchaFont: UIFont? {
         get {
             _captchaFont
         }
@@ -21,11 +21,11 @@ public class MCaptchaView: UIView {
     }
     
     // MARK:-Verification code
-    var captcha: String?
+    public var captcha: String?
     
     // Verification code update block
-    var captchaCompletionBlock: ((_ captcha: String?) -> Void)?
-    var codeList: [AnyHashable]?
+    public var captchaCompletionBlock: ((_ captcha: String?) -> Void)?
+    public var codeList: [AnyHashable]?
 
     public override init(frame: CGRect) {
         super.init(frame: frame)
