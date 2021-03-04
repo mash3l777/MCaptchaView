@@ -1,6 +1,6 @@
 # MCaptchaView
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/mash3l777/MCaptchaView/Swift) ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/mash3l777/MCaptchaView/main)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/mash3l777/MCaptchaView/Swift) ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/mash3l777/MCaptchaView/main)  ![Lines of code](https://img.shields.io/tokei/lines/github/mash3l777/MCaptchaView)
 
 Example：
 
