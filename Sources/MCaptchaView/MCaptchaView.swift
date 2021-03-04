@@ -3,7 +3,7 @@
 //
 //  Created by Mashal Ibrahim on 04/03/2021.
 //
-
+#if !os(macOS)
 import UIKit
 
 public class MCaptchaView: UIView {
@@ -133,3 +133,4 @@ public class MCaptchaView: UIView {
         updateCaptcha()
     }
 }
+#endif
