@@ -5,8 +5,7 @@
 
 **Offline Captcha for iOS & iPad.**
 
-### Example：
-
+## Example：
 ```swift
 myCaptcha = MCaptchaView(frame: viewCaptcha.frame)
 myCaptcha.captchaFont = UIFont.boldSystemFont(ofSize: 30)
@@ -17,8 +16,7 @@ viewCaptcha.clearsContextBeforeDrawing = true
 viewCaptcha.addSubview(myCaptcha)
 ```
 
-### Provide a case-insensitive comparison method：
-
+## Provide a case-insensitive comparison method：
 ```swift
 let isMatch = txtCode.text!.caseInsensitiveCompare(myCaptcha.captcha) == .orderedSame
 if isMatch {
