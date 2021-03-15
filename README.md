@@ -1,6 +1,6 @@
 # MCaptchaView
 
-[![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg?style=flat)](https://github.com/apple/swift-package-manager) ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/mash3l777/MCaptchaView/Swift) ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/mash3l777/MCaptchaView/main)
+[![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg?style=flat)](https://github.com/apple/swift-package-manager) ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/mash3l777/MCaptchaView/Swift) [![CodeFactor](https://img.shields.io/codefactor/grade/github/mash3l777/MCaptchaView/main)](https://www.codefactor.io/repository/github/mash3l777/sacview)
 
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/mash3l777/MCaptchaView) 
 ![Lines of code](https://img.shields.io/tokei/lines/github/mash3l777/MCaptchaView)
